@@ -1,0 +1,15 @@
+<section class="features">
+    <div class="container">
+        <div class="row py-5">
+            <div *ngFor="let feature of features" class="col-md-3">
+                <div class="section2-icon mt-5">
+                    <i [class]="feature.iconClass"></i>
+                </div>
+                <div class="section2-content">
+                    <h5>{{feature.header}}</h5>
+                    <p class="text-muted section2-p">{{feature.discription}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

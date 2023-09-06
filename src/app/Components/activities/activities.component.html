@@ -1,0 +1,18 @@
+<section class="activities-holder mt-5 " id="activ">
+    <div class="main-section">
+        <div class="over-activities-layer">
+            <div class="container">
+                <div class="row">
+                    <div *ngFor="let activitie of activities" class="col-md-3 counter text-center pt-5">
+                        <i [class]="activitie.iconClass" class="counter-icon"></i>
+                        <div [id]="activitie.numberOfLikes" class="counter-number">
+                        </div>
+                        <div class="counter-title pb-5">
+                            {{activitie.title}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

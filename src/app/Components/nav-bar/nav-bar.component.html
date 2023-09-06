@@ -1,0 +1,19 @@
+<nav #navBar class="container-fluid py-md-4 main-nav" [class]="showLogo==='light'?'main-nav':'main-nav-white '" id="navbar">
+    <div class="nav-holder row mx-5">
+        <div class="logo-holder col-3">
+            <img *ngIf="showLogo==='light'" src="assets/logo-light.png" class="w-50 logo-light" />
+            <img *ngIf="showLogo==='dark'" src="assets/logo-dark.png" class="w-50 logo-dark" alt="">
+        </div>
+        <div class="links-holder offset-2 col d-flex justify-content-end">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="links-row row">
+                <div *ngFor="let link of navLinks" class="col links-row-item">
+                    <p [class]="showLogo==='light'?'links-row-items-white':'links-row-items-black'"
+                        class="links-row-items" href="">{{link}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</nav>

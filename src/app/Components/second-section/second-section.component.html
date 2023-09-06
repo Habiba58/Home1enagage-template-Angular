@@ -1,0 +1,28 @@
+<section class="second-section mt-5">
+    <div class="second-section-content container" id="welcome">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/assets/isolated-happy-man2.jpg" class="w-100" alt="">
+            </div>
+            <div class="col-md d-flex align-items-center mt-3">
+                <div>
+                    <h2 class="mb-3">Welcome to Engage!</h2>
+                    <p class="text-muted py-m-4">We have been operating for over 30 years and are Members of The
+                        Federation of Master
+                        Builders. We
+                        work on projects big and small from small residential extensions to full house and
+                        commercial
+                        builds and we are registered NHBC house builders.</p>
+                    <ul class="list-unstyled text-muted">
+                        <li *ngFor="let listItem of listItemP" class="d-flex my-3">
+                            <i class='bx bx-star secon-section-icon'></i>
+                            <div class="d-flex align-items-center">
+                                <p> {{listItem}}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

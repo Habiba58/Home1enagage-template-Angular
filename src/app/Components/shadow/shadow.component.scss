@@ -1,0 +1,57 @@
+#lightBoxContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.innerChild {
+    height: 100%;
+}
+
+.lightBoxIcons {
+    position: absolute;
+}
+
+.lightBoxImage {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+
+}
+
+#close {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 27px;
+    right: 27%;
+}
+
+.innerChild i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+#next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}

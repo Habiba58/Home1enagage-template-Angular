@@ -1,0 +1,35 @@
+.main-section {
+  background-image: url(/assets/full-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.over-activities-layer {
+  background-color: #218fe6;
+  opacity: 0.8;
+  position: relative;
+  width: 100%;
+}
+
+.counter {
+  color: white;
+}
+
+.counter-icon {
+  font-size: 38px;
+  line-height: 36px;
+  height: 36px;
+  margin-bottom: 30px;
+}
+
+.counter-number {
+  font-size: 52px;
+  font-weight: normal;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+
+.counter-title {
+  font-size: 20px;
+}
+/*# sourceMappingURL=activities.component.css.map */

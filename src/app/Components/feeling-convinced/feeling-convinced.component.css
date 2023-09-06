@@ -1,0 +1,56 @@
+.convinced-holder {
+  background-color: #218fe6 !important;
+  padding: 80px 10px;
+}
+
+.convinced-content {
+  text-align: center;
+}
+
+.content-heading {
+  font-size: 36px;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.content-subtitle {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 0;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+.content-btn {
+  margin-top: 17px;
+  text-align: center;
+  color: #fff !important;
+  border-color: #fff !important;
+  padding: 20px 28px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', arial;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  height: auto;
+  line-height: 34px;
+  border: none;
+  z-index: 2;
+  position: relative;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out !important;
+  transition: all .2s ease-in-out !important;
+  line-height: 1.3rem;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 12px;
+  border: 2px solid transparent;
+}
+
+.content-btn:hover {
+  background-color: #fff;
+  color: #121212 !important;
+}
+/*# sourceMappingURL=feeling-convinced.component.css.map */

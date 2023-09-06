@@ -1,0 +1,22 @@
+<section class="latest-news-holder my-5 p-1">
+    <div class="latest-news-heading mt-3">
+        <h3 class="latest-news-heading-header mb-3">Latest News</h3>
+        <p class="latest-news-heading-subtitle">We promise to keep you updated with our blog posts.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let card of newsCards" class="col-md-4">
+                <div class="card mb-3">
+                    <img [src]="card.imageSrc" class="w-100" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title my-2">{{card.header}}</h4>
+                        <span class="card-date my-2">{{card.writtenBy}}</span>
+                        <p class="my-2"> {{card.discription}}</p>
+                        <a class="read" href="">Read More</a>
+                        <i class="bx bx-right-arrow-alt read-more"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

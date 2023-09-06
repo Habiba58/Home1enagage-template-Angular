@@ -1,0 +1,84 @@
+p {
+  margin: 0;
+  cursor: pointer;
+}
+
+nav {
+  padding: 15px;
+  position: fixed;
+  z-index: 100;
+}
+
+.main-nav {
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-nav-white {
+  background-color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hamburger {
+  display: none;
+  font-size: 32px;
+  color: black;
+  cursor: pointer;
+}
+
+.links-row {
+  text-align: center;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links-row-items {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: .88;
+  -webkit-transition: color 0.4s ease-in-out, opacity 0.4s ease-in-out !important;
+  transition: color 0.4s ease-in-out, opacity 0.4s ease-in-out !important;
+}
+
+.links-row-items-white {
+  color: #fff;
+}
+
+.links-row-items-black {
+  color: black;
+}
+
+.links-row-items:hover {
+  opacity: 1;
+}
+
+.main-nav ::after {
+  content: "";
+  background-color: #dde2dd03;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  clear: both;
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1016px) {
+  .links-row-item p {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .links-row {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+/*# sourceMappingURL=nav-bar.component.css.map */

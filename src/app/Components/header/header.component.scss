@@ -1,0 +1,91 @@
+h6 {
+    padding-left: 4px;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+    max-width: 560px;
+    margin-bottom:20px ;
+}
+
+.home-holder {
+    background-image: url('/assets/main.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.over-layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeInUp {
+    animation-name: fadeInUpPx;
+}
+
+.main-header {
+    font-size: 60px;
+    line-height: 1.3em;
+}
+
+.btn {
+    border-radius: 4px;
+    transition: all .2s ease-in-out !important;
+    height: auto;
+    line-height: 1.3rem;
+    padding: 11px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+
+.btn1 {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.btn1:hover {
+    opacity: 0.9;
+    color: black;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+@keyframes fadeInUpPx {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 60px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+
+}
